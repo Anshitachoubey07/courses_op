@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>SURYA CLASSES</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap" rel="stylesheet">
+
+    <link rel="canonical" href="https://www.suryaclasses.com/">
+    <link rel="icon" href="favicon (2).ico">
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <div id="title">
+        <div class="navbar">
+            <div class="logo-img">
+                <img src="logo.png" alt="Logo" class="logo">
+            </div>
+
+            <div class="navlist">
+                <div class="navitems"><a href="#home">HOME</a></div>
+                <div class="navitems"> <a href="#about">ABOUT US</a></div>
+                <div class="navitems"><a href="#courses">COURSES</a></div>
+                <div class="navitems"><a href="#achievements">OUR ACHIEVEMENTS</a></div>
+                <div class="navitems"><a href="contact.html">CONTACT US</a></div>
+            </div>
+
+            <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+            <link rel="stylesheet"
+                href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <!-- Top Navigation Menu -->
+            <div class="hamburger">
+                <div class="topnav">
+                    <a href="#home" class="active">MENU BAR</a>
+                    <!-- Navigation links (hidden by default) -->
+                    <div id="myLinks">
+                        <div class="navitems navi"><a href="https://www.suryaclasses.com/">HOME</a></div>
+                        <div class="navitems navi"> <a href="https://www.suryaclasses.com/">ABOUT US</a></div>
+                        <div class="navitems navi"><a href="https://www.suryaclasses.com/">OUR ACHIEVEMENTS</a></div>
+                        <div class="navitems navi"><a href="https://www.suryaclasses.com/">CONTACT US</a></div>
+                    </div>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="course_begin">
+            <h2>Explore Our Courses</h2>
+            <div class="course_intro">
+                <div class="course_container">
+                    <h3>Physics</h3>
+                    <a href="/physics">
+                    <img src="https://t4.ftcdn.net/jpg/02/14/56/75/360_F_214567514_hGbTMUq06pJIGKiXA248l43E3hU9Q08x.jpg"
+                        alt="subject1" srcset="" class="course-img"></a>
+                    <div class="prize"> Starting at just
+                        <a href="/physics" class="prize-tag"><strong> ₹999</strong></a>
+                        <!-- <h3>Buy Shirt Just in Rs <%= amount %></h3>
+                        <form action="payment" method="POST">
+                        <input type="hidden" name="amount" value="<%= parseInt(amount)*100 %>">
+                        <input type="hidden" name="productName" value="Shocks">
+                        <script
+                            src="//checkout.stripe.com/v2/checkout.js"
+                            class="stripe-button"
+                            data-key="<%= key %>"
+                            data-amount="<%= parseInt(amount)*100 %>"
+                            data-currency="inr"
+                            data-name="Shirt"
+                            data-description="Cotton Shirt Products"
+                            data-locale="auto" >
+                            </script>
+                        </form> -->
+                    </div>
+                    <div class="duration">
+                        <p>Sep' 23 to Aug' 24</p>
+                    </div>
+                </div>
+
+                <div class="course_container">
+                    <h3>Chemistry</h3>
+                    <a href="/chemistry">
+                    <img src="https://t4.ftcdn.net/jpg/05/52/90/05/360_F_552900530_D4WF1c3zGsvIGfLgKaRBrEmbvPlk6O6E.jpg"
+                        alt="subject1" srcset="" class="course-img"></a>
+                    <div class="prize"> Starting at just
+                        <a href="/chemistry" class="prize-tag"><strong> ₹999</strong></a>
+                    </div>
+                    <div class="duration">
+                        <p>Sep' 23 to Aug' 24</p>
+                    </div>
+                </div>
+
+                <div class="course_container">
+                    <h3>Mathematics</h3>
+                    <a href="/maths">
+                    <img src="https://static.vecteezy.com/system/resources/previews/005/421/417/original/maths-symbols-icon-set-algebra-or-mathematics-subject-doodle-design-education-and-study-concept-back-to-school-background-for-notebook-not-pad-sketchbook-hand-drawn-illustration-vector.jpg"
+                        alt="subject1" srcset="" class="course-img"></a>
+                    <div class="prize"> Starting at just
+                        <a href="/maths" class="prize-tag"><strong> ₹999</strong></a>
+                    </div>
+                    <div class="duration">
+                        <p>Sep' 23 to Aug' 24</p>
+                    </div>
+                </div>
+
+                <div class="course_container">
+                    <h3>Biology</h3>
+                    <a href="/biology">
+                    <img src="https://thumbs.dreamstime.com/b/biology-hand-drawn-doodles-lettering-education-science-vector-white-background-135246167.jpg"
+                        alt="subject1" srcset="" class="course-img"></a>
+                    <div class="prize"> Starting at just
+                        <a href="/biology" class="prize-tag"><strong> ₹999</strong></a>
+                    </div>
+                    <div class="duration">
+                        <p>Sep' 23 to Aug' 24</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- <div class="footer">
+    <div class="content">
+      <div class="upper">
+        <div class="logo-footer">
+          <img src="logo.png" alt="" class="footer-img" width="200px" height="100px">
+        </div>
+        <div class="address">
+          <div class="add-icon">
+            <img src="https://cdn-icons-png.flaticon.com/512/535/535239.png" class="address-img" width="50px"
+              height="50px" alt="">
+          </div>
+          <p class="add-info">
+            49 Talbagan main road, <br>Nona chandanpukur Barrackpore, <br>Kolkata 700122
+          </p>
+        </div>
+        <div class="info-footer">
+          <div class="inform">
+            <img src="https://cdn-icons-png.flaticon.com/512/0/191.png" class="info1" width="40px" height="40px" alt="">
+            +91 9874510650
+          </div>
+          <div class="inform">
+            <img src="https://cdn-icons-png.flaticon.com/512/3494/3494693.png" class="info2" width="40px" height="40px"
+              alt="">
+            suryachaudhari1908@gmail.com
+          </div>
+          <div class="inform">
+            <a href="facebook.com"><img src="https://cdn-icons-png.flaticon.com/512/59/59439.png" class="info3"
+                width="40px" height="40px" alt=""></a>
+          </div>
+        </div>
+      </div>
+      <div class="lower">
+        <div class="footer-main">
+          <hr>
+          &copy; Copyright
+          <script>document.write(new Date().getFullYear())</script>.SURYA CLASSES
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+        <script src="index2.js"></script>
+</body>
+
+</html>

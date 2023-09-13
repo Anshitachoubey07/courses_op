@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Payment</title>
+</head>
+<body>
+    <form action="payment" method="POST">
+        <input type="hidden" name="amount" value="<%= parseInt(amount)*100 %>">
+        <input type="hidden" name="productName" value="Shocks">
+        <script
+            src="//checkout.stripe.com/v2/checkout.js"
+            class="stripe-button"
+            data-key="<%= key %>"
+            data-amount="<%= parseInt(amount)*100 %>"
+            data-currency="inr"
+            data-name="Shirt"
+            data-description="Cotton Shirt Products"
+            data-locale="auto" >
+            </script>
+        </form>
+</body>
+</html>

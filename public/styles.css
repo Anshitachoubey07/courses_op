@@ -1,0 +1,215 @@
+body{
+    font-family: 'Instrument Sans', sans-serif;
+    color: rgb(77, 77, 77);
+    font-size: 1.2rem;
+}
+
+h1,h2{
+    font-family: 'Alfa Slab One', cursive;
+  color: rgb(29, 97, 88);  
+}
+
+h3{
+    font-family: 'Alfa Slab One', cursive;
+    color: rgb(33, 48, 46);  
+}
+
+button{
+    background-color: rgb(2, 181, 252);
+    color: white;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+a {
+    color: rgb(75, 70, 70);
+    text-decoration: none;
+}
+
+
+/* change */
+a.cost{
+    font-size: 2rem;
+}
+
+a:hover {
+    font-size: large;
+    color: rgb(61, 58, 58);
+    border-radius: 5px;
+}
+
+a.cost:hover{
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+
+/* title */
+#title{
+    background-color: #eaeaea;
+    height: 100%;
+    position: static;
+    padding-bottom: 80px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.navbar{
+    background-color: #eaeaea;
+    position: fixed;
+    width: 100%;
+    box-shadow: 5px 5px 5px #394867;
+    /* padding-right: 550px; */
+}
+
+.logo-img {
+    background-color: #eaeaea;
+    display: inline-block;
+    padding: 10px 30px 10px 30px;
+    /* position: relative; */
+}
+
+.logo {
+    background-color: #eaeaea;
+    width: 100px;
+    height: 50px;
+    /* position: fixed; */
+}
+
+.navlist {
+    padding-right: 40px;
+    background-color: #eaeaea;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navitems {
+    display: inline-block;
+    padding-left: 35px;
+    text-decoration: none;
+}
+
+/* course */
+
+/* .j3{
+    color: black;
+} */
+
+.course_begin{
+    background-color: #F0F0F0;
+    padding-top: 150px;
+    padding-left: 20px;
+}
+
+.course_intro{
+    background-color: rgb(255, 255, 255);
+    padding: 50px;
+    border-radius: 10%;
+    color: black;
+}
+
+.course_container{
+    background-color: rgb(207, 207, 207);
+    border-radius: 10%;
+    display: inline-block;
+    padding: 50px;
+    margin: 50px;
+}
+
+.course-img{
+    border-radius: 20%;
+    width: 400px;
+    height: 400px;
+}
+
+.prize-tag{
+    font-size: 1.5rem;
+}
+
+/* courses.html */
+.courses-define{
+    padding-top: 100px;
+}
+
+.coursedesc{
+    margin-bottom: 50px;
+    padding: 50px;
+    background-color: white;
+}
+
+.heading{
+    display: inline;
+}
+
+.cost{
+    display: inline-block;
+    float: right;
+}
+
+.paytag{
+    float: right;
+    padding-right: 50px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1326px){
+
+    .hamburger{
+        display: inline-block;
+    }
+
+    .navlist {
+        -moz-column-gap: 30px;
+        column-gap: 30px;
+        display: none;
+    }
+
+    .navitems1 {
+        padding-bottom: 10px;
+    }
+
+    /* Style the navigation menu */
+
+.hamburger{
+    padding-right: 25px;
+}    
+
+.topnav {
+    overflow: hidden;
+    position: relative;
+    padding-left: 25px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: rgb(80, 80, 80);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+
+
+
+    .course_container{
+        display: block;
+        padding-left: 20%;
+    }
+}
